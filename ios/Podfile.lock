@@ -221,6 +221,8 @@ PODS:
     - React
   - RNCAsyncStorage (1.6.2):
     - React
+  - RNVectorIcons (6.6.0):
+    - React
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -253,6 +255,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - ReactNativeNavigation (from `../node_modules/react-native-navigation/ReactNativeNavigation.podspec`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -312,6 +315,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native-navigation/ReactNativeNavigation.podspec"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-community/async-storage"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -343,6 +348,7 @@ SPEC CHECKSUMS:
   ReactCommon: 4fba5be89efdf0b5720e0adb3d8d7edf6e532db0
   ReactNativeNavigation: 00bfacb7d93b4d87464872cf6b9e4cd480ba0981
   RNCAsyncStorage: 60a80e72d95bf02a01cace55d3697d9724f0d77f
+  RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   Yoga: d8c572ddec8d05b7dba08e4e5f1924004a177078
 
 PODFILE CHECKSUM: ff4c9239b887fd2230ab22d90035aba59826abed
