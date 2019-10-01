@@ -7,6 +7,7 @@ import java.util.List;
 import com.reactnativenavigation.NavigationApplication;
 import com.reactnativenavigation.react.NavigationReactNativeHost;
 import com.reactnativenavigation.react.ReactGateway;
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 
 public class MainApplication extends NavigationApplication {
 
@@ -31,6 +32,7 @@ public class MainApplication extends NavigationApplication {
         // No need to add RnnPackage and MainReactPackage
         return Arrays.<ReactPackage>asList(
             // eg. new VectorIconsPackage()
+            new AsyncStoragePackage()
         );
     }
 

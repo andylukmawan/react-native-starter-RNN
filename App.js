@@ -6,7 +6,7 @@
  * @flow
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -15,6 +15,8 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+
+import AsyncStorage from '@react-native-community/async-storage';
 
 import {
   Header,
@@ -25,6 +27,31 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
+  useEffect(() => {
+    getData();
+  }, []);
+
+  const getData = async () => {
+    try {
+      const value = await AsyncStorage.getItem('@storage_Key');
+      if (value !== null) {
+        console.warn(value);
+      } else {
+        storeData();
+      }
+    } catch (e) {
+      console.warn(e);
+    }
+  };
+
+  const storeData = async () => {
+    try {
+      await AsyncStorage.setItem('@storage_Key', 'stored value');
+    } catch (e) {
+      // saving error
+    }
+  };
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
