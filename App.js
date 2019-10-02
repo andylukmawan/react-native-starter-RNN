@@ -18,6 +18,7 @@ import {
 
 import AsyncStorage from '@react-native-community/async-storage';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import SplashScreen from 'react-native-splash-screen';
 
 import {
   Header,
@@ -29,6 +30,7 @@ import {
 
 const App: () => React$Node = () => {
   useEffect(() => {
+    SplashScreen.hide();
     getData();
   }, []);
 
