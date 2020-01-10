@@ -835,10 +835,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@react-native-community/async-storage@1.6.3":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.6.3.tgz#1a713e8c5cacd543ab8539080a5ce57ad917da88"
-  integrity sha512-67K2akX90uc252zKMYJt1wISvaEH6ARtdTI9bUkwmOFXVPyVk1DfPnaRmyUzcVdeCBOO1n0xv9YO2GSppIormQ==
+"@react-native-community/async-storage@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.7.1.tgz#ef2104d865de61ad91bba66613e57e689ff4e6a1"
+  integrity sha512-/oX/x+EU4xNaqIaC/epVKzO8XghzImPA7l8cLz3USEFmtFiXFjBbTeeIFjjEm/u4/cv38Wi1xMEa10PHIWygRg==
 
 "@react-native-community/cli-debugger-ui@^3.0.0":
   version "3.0.0"
@@ -5151,10 +5151,10 @@ react-lifecycles-compat@2.0.0:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-2.0.0.tgz#71d9c4cde47114c4102454f76da055c2bc48c948"
   integrity sha512-txfpPCQYiazVdcbMRhatqWKcAxJweUu2wDXvts5/7Wyp6+Y9cHojqXHsLPEckzutfHlxZhG8Oiundbmp8Fd6eQ==
 
-react-native-navigation@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-4.0.4.tgz#d5c623c4330c8831335baad36e3bd0bbf0e4aded"
-  integrity sha512-xTmGUYa4BM5y1RuwkJ51NVkp55Z5ueZNPu3G9Ipy1w45C8wKKNoZQsRlznPFErtLteUgjAeEiHxQXkxiUv5X6A==
+react-native-navigation@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-4.4.0.tgz#1083c014a9438ae468b02e84bea161c418d9701a"
+  integrity sha512-Or9fGerdnnZxHL0aO2f+K8A11vnrJUNe1FvL0ua0e72al7ka7nuJ4TMoEXOh5HIfIWeFjMdcCkzBjaknV7CNGg==
   dependencies:
     hoist-non-react-statics "3.x.x"
     lodash "4.17.x"
